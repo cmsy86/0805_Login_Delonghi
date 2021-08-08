@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@import url(style_Reset.css);
+
+/* div#headerFrame */
+#headerFrame {
+  background-color: #0c2645;
+}
+
+/* header#header */
+#headerFrame header#header {
+  width: 1300px;
+  height: 110px;
+  border: 1px solid #aaa;
+  margin: 0 auto;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* div#headerLogo */
+header#header div#headerLogo {
+  width: 320px;
+  text-align: center;
+  /* border: 1px solid #fff; */
+}
+
+/* nav#gnb */
+header#header nav#gnb {
+  width: 600px;
+  height: 110px;
+  /* border: 1px solid #fff; */
+  margin: 0 10px;
+}
+
+header#header ul#mainMenu {
+  height: 110px;
+  /* border: 1px solid #0f0; */
+
+  position: relative;
+}
+
+header#header nav#gnb li.mainLi {
+  text-align: center;
+  /* border: 1px solid #f00; */
+  padding: 0 31px;
+}
+
+header#header nav#gnb li.mainLi > a {
+  height: 110px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 110px;
+  font-weight: bold;
+  /* border: 1px solid #f80; */
+
+  display: inline-block;
+}
+
+header#header nav#gnb ul.subMenu {
+  position: absolute;
+  left: 0;
+}
+
+/* ul.subMenu */
+#gnb ul.subMenu {
+  /* border: 1px solid #000; */
+  display: none;
+  display: flex;
+}
+
+#gnb li.subLi a {
+  color: #000;
+  height: 80px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 80px;
+  padding: 0 30px;
+  /* border: 1px solid #000; */
+  display: inline-block;
+}
+
+#gnb li.mainLi:nth-child(3) ul.subMenu {
+  transform: translateX(150px);
+}
+
+#gnb li.mainLi:nth-child(4) ul.subMenu {
+  transform: translateX(295px);
+}
+
+/* 하이라이트 효과 */
+#header #gnb li.mainLi:hover > a {
+  color: #08f;
+  border-bottom: 5px solid #08f;
+}
+
+#header #gnb li.subLi > a:hover {
+  color: #08f;
+}
+
+
+
+
+/* nav#headerLnb */
+#header nav#headerLnb {
+  width: 290px;
+  border: 1px solid #fff;
+}
+
+/* div#subMenuBGFrame */
+div#subMenuBG {
+  height: 160px;
+  border: 1px solid #f00;
+  background-color: #fff;
+}
+
+
+
+
+/* div#wrap */
+div#wrap {
+  width: 1300px;
+  height: 300px; /*임시설정*/
+  margin: 0 auto;
+}
+
+
+
+
+/* div#footerFrame */
+div#footerFrame {
+  height: 200px; /*임시설정*/
+  background-color: #0c2645;
+}
+
+
+
+

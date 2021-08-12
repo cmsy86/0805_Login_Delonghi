@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
 
+/* Reset */
 * {
   color: #222;
   font-family: "Nanum Gothic", sans-serif;
@@ -12,7 +13,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: #fff; 
 }
 
 a:link {
@@ -45,29 +46,4 @@ ul {
   display: -ms-flex;
   display: -o-flex;
   display: flex;
-}
-
-
-
-
-/* Guide Line */
-
-div#wrap {
-  border: 1px solid #000;
-}
-
-div#headerFrame {
-  border: 1px solid #000;
-}
-
-header#header {
-  border: 1px solid #f80;
-}
-
-div#footerFrame {
-  border: 1px solid #000;
-}
-
-footer#footer {
-  border: 1px solid #f80;
 }
